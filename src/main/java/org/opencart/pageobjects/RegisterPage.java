@@ -45,4 +45,5 @@ public class RegisterPage extends Page {
         continueButton.click();
         System.out.println("The continue button is clicked");
     }
+
 }
