@@ -26,7 +26,7 @@ public class TestRegistrationFlowWithJunitTests {
     @DisplayName("The registration af a new user with valid data  is succesful!")
     public void registerUserWithValidData() throws InterruptedException{
         driver = DriverManager.getInstance().getDriver();
-        homePage.navigateToLoginPage();
+        homePage.navigateToRegisterPage();
 
         String firstName = FakeDataManager.getRandomName();
         String lastName = FakeDataManager.getRandomName();
